@@ -15,7 +15,6 @@ body {
 
 .grid {
     display: grid;
-    grid-template-columns: 1fr 1fr;
     grid-gap: 64px;
 }
 
@@ -31,6 +30,7 @@ body {
 }
 
 .grid-3-colums {
+    grid-gap: 64px;
     grid-template-columns: 1fr 1fr 1fr;
 }
 
