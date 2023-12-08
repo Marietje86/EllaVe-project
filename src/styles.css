@@ -19,8 +19,13 @@ body {
 }
 
 
+.card-header{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
 .img-responsive {
-    max-width: 100%;
+    max-width: 60%;
     margin: 0 auto;
     display: block;
 }
@@ -40,7 +45,7 @@ body {
 
 .card {
     background-color: rgb(245, 245, 235);
-    margin: 30px 0;
+    margin: 60px 0;
 }
 
 .card-body {
