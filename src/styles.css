@@ -1,6 +1,6 @@
 body {
     font-family: "Poppins", sans-serif;
-    background-color: rgb(243, 233, 233);
+    background: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);
 }
 
 .container {
@@ -28,7 +28,7 @@ body {
     grid-template-columns: 1fr 1fr;
 }
 
-.grid-3-colums {
+.grid-3-columns {
     grid-gap: 64px;
     grid-template-columns: 1fr 1fr 1fr;
 }
@@ -42,9 +42,13 @@ body {
     aspect-ratio: 1 / 1;
 }
 
+.instagram-embeds {
+    margin: 30px 0;
+}
+
 .card {
     background-color: rgb(245, 245, 235);
-    margin: 60px 0;
+    margin: 30px 0;
 }
 
 .card-header.grid {
@@ -224,7 +228,7 @@ footer {
 }
 
  footer li {
-    list-style: none;
+    list-style: none;  
     margin: 0;
     padding: 0;
  }
